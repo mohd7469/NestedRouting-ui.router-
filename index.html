@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head lang="en">
+<style>
+a{
+    margin: 0px 5px;
+    text-decoration: none;
+}
+a:active {
+    color: green;
+    background: cadetblue;
+}
+a:hover {
+    color: green;
+}
+</style>
+
+</head>
+<body>
+
+<a href="#">Home</a>
+
+<div ui-view></div>
+
+<script src="./angular.min.js"></script>
+<script src="./angular-ui-router.min.js"></script>
+<script src="./route.js"></script>
+
+</body>
+</html>
